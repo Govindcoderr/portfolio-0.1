@@ -24,17 +24,17 @@ const Skills = () => {
       icon: <Code size={20} />,
       skills: [
        
-        { name: 'Python', percentage: 75 },
-        { name: 'Java', percentage: 70 },
-        { name: 'JavaScript', percentage: 60 },
+        { name: 'Python', percentage: 70 },
+        { name: 'Java', percentage: 50 },
+        { name: 'JavaScript', percentage: 40 },
       ],
     },
     {
       title: 'Web Development',
       icon: <Globe size={20} />,
       skills: [
-        { name: 'HTML/CSS', percentage: 90 },
-        { name: 'React.js', percentage: 80 },
+        { name: 'HTML/CSS', percentage: 85 },
+        { name: 'React.js', percentage: 70 },
        
       ],
     },
@@ -44,17 +44,24 @@ const Skills = () => {
       skills: [
         { name: 'MySQL', percentage: 75 },
         { name: 'MongoDB', percentage: 70 },
+        { name: 'Sqllite3', percentage: 50 },
+        {name: 'Vetor_db', percentage: 60 },
+        
        
       ],
     },
     {
-      title: 'Design',
+      title: 'AI & Machine Learning',
       icon: <PenTool size={20} />,
       skills: [
-        { name: 'Figma', percentage: 80 },
-        { name: 'Adobe XD', percentage: 65 },
-        { name: 'Photoshop', percentage: 60 },
-        { name: 'Illustrator', percentage: 50 },
+        { name: 'Python (NumPy, Pandas, Matplotlib, Seaborn)', percentage: 70 },
+        { name: 'Scikit-Learn for traditional ML', percentage: 65 },
+        { name: 'TensorFlow & Keras for Deep Learning', percentage: 60 },
+        { name: 'PyTorch for research and production models', percentage: 50 },
+        { name: 'LangChain, HuggingFace Transformers for LLM development', percentage: 60 },
+        { name: 'FastAPI / Flask for deploying ML models', percentage: 50 },
+      
+        
       ],
     },
   ];

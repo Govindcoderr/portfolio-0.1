@@ -43,7 +43,7 @@ const Projects = () => {
       tags: ['React-js', 'python' , 'OpenCV' ,'AI'],
       repoLink: 'https://github.com/Govindcoderr/Face-Reading-App',
       liveLink: 'https://face-reading-app.netlify.app/',
-      category: 'Python',
+      category: 'Python-Ai',
     },
     {
       id: 3,
@@ -54,14 +54,63 @@ const Projects = () => {
       liveLink: 'https://govindrajpurohit.netlify.app/',
       category: 'web',
     },
-   
+    {
+      id: 4,
+      title: 'Personal Todo-list Website',
+      description: 'Built and deployed a responsive personal Todo-list Website ',
+      image: 'todo-list.png',
+      tags: ['React-js', 'Chatgpt', 'javaScrpt', 'HTML', 'CSS'],
+      liveLink: 'https://task0list.netlify.app/',
+      repoLink: 'https://github.com/Govindcoderr/Company-Task',
+      category: 'web',
+    },
+     {
+      id: 5,
+      title: 'ChatBot_langchain',
+      description: 'Developed a chatbot using Langchain and ollama to provide intelligent responses based on user queries.',
+      image: 'chatbot_lan.png',
+      tags: ['Python', 'LLM-model ', 'Gradio UI', 'langchain', 'Ollama', 'AI', 'vector-database', 'ChromaDB', 'Embeddings', 'chunks'],
+      liveLink: 'not available',
+      repoLink: 'https://github.com/Govindcoderr/ChatBot_langchain',
+      category: 'Python-Ai',
+    },
+    {
+      id: 6,
+      title: 'Document Processing Agent',
+      description: 'Intelligent Document Processing Agent – Extracts invoices using OCR + LLM, validates data, and syncs with ERP (zoho) automatically.',
+      image: 'Dpa.png',
+      tags: ['Python', 'LLM-model ', 'Streamlit-UI', 'LLM-Model', 'OCR', 'CV', 'ERP (zoho)', 'sqllite3' ],
+      liveLink: 'not available',
+      repoLink: 'https://github.com/Govindcoderr/Document-Processing-Agent-Project',
+      category: 'Python-Ai',
+    },
+    {
+      id: 7,
+      title: 'Document Processing Agent with agentic automation process with Chatbot',
+      description: 'Intelligent Document Processing Agent – Extracts invoices using OCR + LLM, validates data, and syncs with ERP (zoho) automatically.',
+      image: 'Dpa.png',
+      tags: ['Python', 'LLM-model', 'Streamlit-UI', 'LLM-Model', 'OCR', 'CV', 'ERP (zoho)', 'sqllite3', 'Agentic-Automation', 'Chatbot','Email-integration' ,'Task-scheduler', 'watchdog'],
+      liveLink: 'not available',
+      repoLink: 'https://github.com/Govindcoderr/Autonomous-Document-Processing-ERP-Sync-System',
+      category: 'Python-Ai'
+    },   
+    {
+      id: 8,
+      title: 'Crop Pest Problem Solution with Chatbot',
+      description: 'Intelligent Document Processing Agent – Extracts invoices using OCR + LLM, validates data, and syncs with ERP (zoho) automatically.',
+      image: 'crop.png',
+      tags: ['Python', 'LLM-model', 'Streamlit-UI', 'LLM-Model',  'knowledge-base'],
+      liveLink: 'not available',
+      repoLink: 'https://github.com/Govindcoderr/Crop_Pest_Problem_Solution',
+      category: 'Python-Ai'
+    },
    
   ];
 
   const filterCategories = [
     { id: 'all', name: 'All' },
     { id: 'web', name: 'Web Development' },
-    { id: 'Python', name: 'Python' },
+    { id: 'Python-Ai', name: 'Python-Ai' },
     { id: 'React-js', name: 'React-js' },
   ];
 
